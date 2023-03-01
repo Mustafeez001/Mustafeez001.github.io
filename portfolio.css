@@ -11,15 +11,19 @@
 
 .card {
     display: grid;
-    width: 80%;
+    width: 50%;
     margin-top: 10px;
     margin: auto;
-    /* border: solid 1px red; */
+    /* border: solid 1px yellow; */
+    padding-top: 10px;
+    /* gap: 30px; */
     align-content: center;
     /* align-items: center; */
     /* margin-left: 80px; */
     /* display: contents; */
-    box-decoration-break: slice;
+    /* box-decoration-break: slice; */
+
+
 }
 
 .contact-content {
@@ -27,21 +31,32 @@
     align-items: center;
 }
 
-.box {
+
+
+.box1 {
 
     display: grid;
     align-items: center;
+    /* width: 60%; */
     display: center;
     text-align: center;
     font-display: center;
+    /* border: solid 1px rgb(119, 119, 214); */
+    padding-top: 20px;
+    /* border: rgb(119, 119, 214); */
+    padding-bottom: 20px;
+    /* background-color: lightsalmon */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 
-.box>img {
+.box1>img {
     display: center;
     width: auto;
     align-items: center;
     margin: auto;
+    padding-top: 20px;
+
 }
 
 
