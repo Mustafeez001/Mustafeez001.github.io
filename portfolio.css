@@ -1000,6 +1000,21 @@ footer span a:hover {
 }
 
 
+#soft_skill {
+    width: 82vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+    /* column-gap: 3vw; */
+    box-sizing: border-box;
+    margin-top: 1.8vw;
+    /* row-gap: 3vw; */
+    gap: 2vw;
+
+}
+
+
 /* scss mukund */
 @media only screen and (max-width: 500px) and (min-width: 0px) {
     #skills {
@@ -1090,11 +1105,13 @@ footer span a:hover {
         width: 82vw;
         margin: auto;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         text-align: left;
         column-gap: 3vw;
         box-sizing: border-box;
         margin-top: 1.8vw;
+        row-gap: 3vw;
+
     }
 
     #soft_skill h3 {

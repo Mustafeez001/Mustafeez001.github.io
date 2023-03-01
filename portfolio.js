@@ -71,3 +71,8 @@ $(document).ready(function () {
         },
     });
 });
+function openResume() {
+    window.open("https://drive.google.com/file/d/1rDBEDVlPW9T54zy5JwZMQ5dWbcHgREgm/view?usp=share_link", "_blank")
+
+    // https://drive.google.com/file/d/1rDBEDVlPW9T54zy5JwZMQ5dWbcHgREgm/view?usp=share_link
+}
