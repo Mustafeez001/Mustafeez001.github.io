@@ -23,6 +23,71 @@ soft_skill {
 
 }
 
+.card1 {
+
+  display: grid;
+  border: solid 5px rgb(119, 119, 214);
+  margin: auto;
+  width: 50%;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin-top: 50px;
+
+
+}
+
+.repo-links1 {
+
+  display: flex;
+  /* border: solid blue 1px; */
+  justify-content: space-between;
+  color: white;
+  margin-top: 20px;
+  /* width: 40px; */
+  text-decoration-color: white;
+
+}
+
+
+.repo-div1 {
+  display: flex;
+  height: 50px;
+  width: 40%;
+  border: solid 2px rgb(119, 119, 214);
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 10px; */
+  /* color: red; */
+  margin: 10px;
+
+
+}
+
+.demo-div1 {
+  display: flex;
+  width: 35%;
+  border: solid 2px rgb(119, 119, 214);
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.box1>img {
+  width: 100%;
+}
+
+.demo-div1 a,
+.repo-div1 a,
+.repo-div1 a:link,
+.demo-div1 a:link,
+.techStack {
+  text-decoration: none;
+  color: white;
+}
+
+
+
 #soft_skill {
   width: 82vw;
   margin: auto;
@@ -132,7 +197,7 @@ section .title::after {
   padding: 30px 0;
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
- 
+
 }
 
 .navbar.sticky {
@@ -688,7 +753,7 @@ opacity: 0.3; */
   margin: 0 5px;
   outline: none !important;
   border-radius: 50%;
-  border: 2px solid rgb(119, 119, 214) !important;
+  /* border: 2px solid rgb(119, 119, 214) !important; */
   transition: all 0.3s ease;
 }
 
@@ -948,6 +1013,7 @@ footer span a:hover {
   .navbar.sticky .menu li a {
     color: #fff;
   }
+
   .navbar.sticky .menu li a:hover {
     color: rgb(119, 119, 214);
   }
@@ -987,6 +1053,7 @@ footer span a:hover {
   .navbar.sticky .menu li a {
     color: #fff;
   }
+
   .navbar.sticky .menu li a:hover {
     color: rgb(119, 119, 214);
   }
