@@ -1228,6 +1228,20 @@ footer span a:hover {
   #soft_skill_head {
     margin-top: 4vw;
   }
+
+  .card1 {
+
+    display: grid;
+    border: solid 5px rgb(119, 119, 214);
+    margin: auto;
+    width: auto;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 50px;
+
+
+  }
 }
 
 
